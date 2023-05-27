@@ -12,7 +12,9 @@ It is estimated that the programming will take 5 months, although we have been a
 # Contents of directories
 
     src
-
+    bin
+    doc
+    other
 src contains all of the source code for this project
 bin is created after running the makefile, if it does not exist already. bin contains the compiled output of the source code.
 doc contains all documentation
