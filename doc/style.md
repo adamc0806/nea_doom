@@ -16,7 +16,7 @@ Tabs are 8 characters; indentations are also 8 characters. This is a new change 
 
 Nested code blocks should be as follows:
 
-```
+```c
 	if (expression) {
 		do_thing();
 		do_other_thing();
@@ -29,7 +29,7 @@ Nested code blocks should be as follows:
 
 A maximum of 2 statements should be on a single line, any more should be on seperate lines:
 
-```
+```c
 	if (expression) do_this(); do_that;
 			do_thing(); // third expression is on new line
 ```
@@ -42,7 +42,7 @@ This is consistent for the following:
 	
 If a function or procedure is declared, always include a maximum of 1 newline in between the declaration and statements. For example:
 
-```
+```c
 	void function(){
 	
 		do_this();
@@ -62,7 +62,7 @@ Comments should be used where required, and not on every line. My GCSE project r
 Comments should be formatted with a space after whatever character(s) is/are used to denote a comment.
 Comments that require multiple lines should be formatted as follows
 
-```
+```c
 	// Single line comment
 	/*
 	 Multi-line
